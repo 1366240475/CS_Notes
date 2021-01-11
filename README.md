@@ -8,29 +8,26 @@ C++, DSA, Linux...
 在这里，我把C++的学习过程粗略的分为几个几段：
 <br><br>
 ## 一、入门
-有C语言的基础，看看网上的C++入门教程，比如菜鸟教程、C语言中文网。
 
-* 需要了解并掌握所有编程语言共同的最基本的概念：变量、常量、类型、循环、判断、数组、字符串、对象、输入输出等
+* 所有编程语言共同的最基本的概念：变量、常量、类型、循环、判断、数组、字符串、对象、输入输出等
 
-* 然后还有C++中一些特有的东西，比如：命名空间namespace、引用、模板等。
+* C++中一些特有的东西，比如：命名空间namespace、引用、模板等。
 
-* 以及如何使用一些 STL 中的类库，比如：string、vector、find 之类的东西。
-
+* 一些STL中的类库，比如：string、vector、find 之类的东西。
+<br><br>
 C++教程的课后练习题就足够了。如果对这些没什么兴趣，可以试试这个刷题网站：https://www.codewars.com/kata/search/cpp
-<br/><br/>
-到这里，你对 C++ 包含了哪些知识点大概有了一个整体的印象，并且能够写上百行左右的程序，但是还是很难写出一个优秀的类。<br>
-<br>
+<br><br>
+到这里，你对 C++ 包含了哪些知识点大概有了一个整体的印象，并且能够写上百行左右的程序，但是还是很难写出一个优秀的类
+<br><br>
 ### 书籍
 《C++ Primer》
-
-全面和深入的学习，才算是真正的入门<br/>
-
+<br><br>
 * 阅读方式：以主题为划分
   * C++ 基础
   * C++ 标准库
   * 类设计者的工具
   * 高级主题
-  
+  <br><br>
 可以看一些自己感兴趣的章节，完全没有必要从第一页开始挨着挨着读。
 <br><br>
 ### 视频
@@ -44,7 +41,7 @@ C++教程的课后练习题就足够了。如果对这些没什么兴趣，可�
 * 字符串处理（类库和正则表达式）
 * 容器类库
 * 泛型算法
-
+<br><br>
 把后面的每一个练习题都自己敲一遍，自己多思考对比。
 
 多用代码去验证自己的想法，尤其是指针、引用、构造、析构这些地方。
@@ -53,4 +50,4 @@ C++教程的课后练习题就足够了。如果对这些没什么兴趣，可�
 * 一定要记得这几个网站，可以随时查阅一些语法的用法和标准库：
   * [C++ reference](en.cppreference.com)
   * [C++ Programming Style Guidelines](https://geosoft.no/development/cppstyle.html)
-  * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)/[译版](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/)
+  * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) / [译版](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/)
