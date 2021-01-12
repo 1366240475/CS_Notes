@@ -53,3 +53,87 @@ C++教程的课后练习题就足够了。如果对这些没什么兴趣，可�
   * [C++ reference](en.cppreference.com)
   * [C++ Programming Style Guidelines](https://geosoft.no/development/cppstyle.html)
   * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) / [译版](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/)
+<br><br>
+
+## 二、提高
+* 看完 C++ Primer 这类书，写出来的代码在效率、规范上还是没那么 “C++”，甚至会有内存方面的 Bug。比如返回函数内局部变量的引用，经常 pass-by-value 而非 pass-by-reference-to-const。
+
+* 由于 C++ 是一门系统级编程的语言，你需要掌握一些 OS 方面的知识才能更好的使用。尤其是内存编译链接这一块，比如堆、栈、静态链接、动态链接等等。
+
+* 还有一些 C++ 里比较特殊的概念，比如 RAII 的资源管理方式、值语义与生命期、引用、右值引用等等。
+
+这些东西似乎没有一本很系统的书籍可以帮助你掌握，只能在不同的书里吸收完善。
+<br><br>
+### 书籍
+* 《Effective C++》
+
+一言概括，就是帮助你快速习得一些 C++ 里正确的姿势。否则你可能需要用几万行代码的经验才能慢慢悟出来。
+
+* 《程序员自我修养》& 《CSAPP》
+
+帮助你掌握一些系统级编程的知识。如内存管理、堆栈、链接这类在 C、C++ 中极其重要的概念。
+
+* 《Linux多线程服务端编程》
+
+这本书严格来说不是纯讲 C++ 的，但是里面会有一些章节，关于 C++ 多线程编程、锁、线程安全、一些工程实践经验。
+
+* 《Google C++ Style Guide》
+
+谷歌的 C++ 代码规范，写代码是一件专业的事，把代码写得漂亮、专业也是一项能力。谷歌的代码规范算是 C++ 领域一个标杆了。
+<br><br>
+### 视频
+[C++新标准C++11-14](https://www.bilibili.com/video/BV17E411K7bT)
+
+[STL体系结构与内核分析](https://www.bilibili.com/video/BV1db411q7B8)
+
+[C++内存管理](https://www.bilibili.com/video/BV1Kb411B7N8)
+
+[C++设计模式](https://www.bilibili.com/video/BV1c4411a7wk?from=search&seid=12923946315035785642)
+
+[C++ Startup揭密：程序的前世今生](https://www.bilibili.com/video/BV1z4411W7Zb)
+<br><br>
+
+## 进阶
+Part1. STL 源码
+
+侯捷老师说：源码之下，了无秘密。
+
+为了更好的使用STL，方法就是阅读STL源码，掌握部分实现：
+
+* 《STL源码剖析》
+
+这本书讲解了STL五大组件的底层实现。
+
+包括内存管理、各类容器的数据结构实现、算法的实现等。
+
+建议列为必读，可以帮助深入理解 STL 底层。
+
+其中也有很多面试常考的知识点，如内存池、traits 技法、vector 动态扩容、set、map 等实现原理等。
+<br><br>
+
+Part2. 对象模型
+
+* 《深度探索C++对象模型》
+
+这本书其实就是围绕一个点：C++ 里的对象是在内存中是如何组织的。
+
+这是每个章节内容：
+* 关于对象
+* 构造函数语意学
+* Data语意学
+* Function语意学
+* 构造、解构、拷贝语意学
+* 执行期语意学
+<br><br>
+
+Part3. 语言设计与演化
+
+这里重点是思考 C++ 语言很多语法的设计和演进方向，可以看看 C++ 之父 Bjarne Stroustrup's 《C++设计与演化》。
+
+这本书重点在于通过C++之父去窥见C++的前世今生。
+
+看完这本书的意义，功利一点来说，或许对于提高C++编程能力没有太多帮助的，不像Effective C++是立竿见影的效果。
+
+但是，对于加深对C++的理解很有帮助。想要更好的使用C++构建好的、高效的系统，对语言本身的深入理解是先决条件。
+
+另一方面，书中提到了很多语言设计的思想、哲学，这些，相信在学习其他编程语言的时候也是有帮助的。
