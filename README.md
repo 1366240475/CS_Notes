@@ -15,6 +15,7 @@ C++, DSA, Linux...
 
 * 一些STL中的类库，比如：string、vector、find 之类的东西。
 <br><br>
+
 C++教程的课后练习题就足够了。如果对这些没什么兴趣，可以试试这个刷题网站：https://www.codewars.com/kata/search/cpp
 <br><br>
 到这里，你对 C++ 包含了哪些知识点大概有了一个整体的印象，并且能够写上百行左右的程序，但是还是很难写出一个优秀的类
